@@ -689,7 +689,7 @@ section {
     align-items: center; }
     .header--logo img {
       margin-top: 15px;
-      height: 70px; }
+      height: 90px; }
       @media only screen and (max-width: 75em) {
         .header--logo img {
           height: 60px; } }
@@ -850,7 +850,7 @@ section {
   z-index: 9999; }
 
 .sticky .header--nav {
-  margin-top: -30px; }
+  margin-top: 5px; }
 
 .sticky .header--nav li a:link,
 .sticky .header--nav li a:visited {
@@ -1021,7 +1021,7 @@ section {
   align-items: center; }
   @media only screen and (max-width: 61.93em) {
     .information-4 {
-      height: calc(100vh -100px); } }
+      height: calc(100vh - 100px); } }
   @media only screen and (max-width: 61.93em) {
     .information-4--image {
       margin-left: 130px; } }
@@ -1041,7 +1041,7 @@ section {
 .about-us {
   min-height: calc(100vh - 198px); }
   .about-us--content {
-    margin: 80px 0; }
+    margin: 10px 0; }
     .about-us--content--image {
       display: flex;
       align-items: center;
@@ -1052,7 +1052,10 @@ section {
         @media only screen and (max-width: 61.93em) {
           .about-us--content--image img {
             display: block;
-            height: 350px; } }
+            height: 350px; }
+        .about-us--content--title{
+          display: none;
+        }}
         @media only screen and (max-width: 47.93em) {
           .about-us--content--image img {
             display: block;

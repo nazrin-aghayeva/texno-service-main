@@ -19,7 +19,7 @@ $(document).ready(function() {
   });
   /* For the sticky navigation */
   $('.js-information').waypoint(function(direction) {
-    if (direction == "down") {
+    if (direction === "down") {
         $('nav').addClass('sticky');
     } else {
         $('nav').removeClass('sticky');
